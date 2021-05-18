@@ -5,20 +5,18 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
 ## Use the app
-Using the following command 
+Using the following command you will run the app in dev mode in the port 8080 of your localhost.
 ```
 ./mvnw compile quarkus:dev 
 ```
-you will run the app in dev mode in the port 8080 of your localhost.
-You can also run the app by executing the jar file: Run this command first 
+You can also run the app by executing the jar file: Run these two commands in order to execute the app.
+
 ```
 ./mvnw package 
 ```
-to get the target file and then this one 
 ```
 java -jar target/quarkus-app/quarkus-run.jar 
 ```
-to execute the app.
 
 ## Endpoints
 http://localhost:8080/hello will return a simple "hello"
